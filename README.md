@@ -21,8 +21,8 @@ Components:
 -optimizedImage: Contains the resized image after optimization.
 -size: Represents the size value entered for optimization.
 -Key Functions
--handleImageUpload:
 
+handleImageUpload:
 Triggered when an image is uploaded.
 Validates the file type and reads the file as a data URL to update the image state.
 convertToBlackAndWhite:
