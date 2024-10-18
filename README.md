@@ -14,8 +14,8 @@ This React application allows users to upload an image, convert it to absolute b
 *Code Structure
 Components:
 -App Component: The main component that manages state and renders the application UI.
--State Management
--State Variables:
+
+-State Management /State Variables:
 -image: Stores the uploaded image as a base64 string.
 -convertedImage: Holds the converted black and white image.
 -optimizedImage: Contains the resized image after optimization.
