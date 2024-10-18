@@ -1,25 +1,27 @@
 # Image Converter App
 This React application allows users to upload an image, convert it to absolute black and white, and optimize the converted image by resizing it.
 
-Features
-Image Upload: Users can upload PNG or JPEG images.
-Absolute Black and White Conversion: Converts the uploaded image to a binary black and white format based on a threshold.
-Image Optimization: Resizes the converted image by entering a single value for both width and height.
-Technologies Used
-React: A JavaScript library for building user interfaces, allowing for a dynamic and interactive experience.
-HTML5 Canvas: Used for image manipulation tasks, including conversion and resizing.
-Tailwind CSS: A utility-first CSS framework for styling the application, enabling rapid design and responsive layouts.
-Code Structure
-Components
-App Component: The main component that manages state and renders the application UI.
-State Management
-State Variables:
-image: Stores the uploaded image as a base64 string.
-convertedImage: Holds the converted black and white image.
-optimizedImage: Contains the resized image after optimization.
-size: Represents the size value entered for optimization.
-Key Functions
-handleImageUpload:
+*Features:
+-Image Upload: Users can upload PNG or JPEG images.
+-Absolute Black and White Conversion: Converts the uploaded image to a binary black and white format based on a threshold.
+-Image Optimization: Resizes the converted image by entering a single value for both width and height.
+
+*Technologies Used:
+-React: A JavaScript library for building user interfaces, allowing for a dynamic and interactive experience.
+-HTML5 Canvas: Used for image manipulation tasks, including conversion and resizing.
+-Tailwind CSS: A utility-first CSS framework for styling the application, enabling rapid design and responsive layouts.
+
+*Code Structure
+Components:
+-App Component: The main component that manages state and renders the application UI.
+-State Management
+-State Variables:
+-image: Stores the uploaded image as a base64 string.
+-convertedImage: Holds the converted black and white image.
+-optimizedImage: Contains the resized image after optimization.
+-size: Represents the size value entered for optimization.
+-Key Functions
+-handleImageUpload:
 
 Triggered when an image is uploaded.
 Validates the file type and reads the file as a data URL to update the image state.
